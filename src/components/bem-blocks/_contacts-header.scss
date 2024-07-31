@@ -1,0 +1,149 @@
+.contacts-header{
+    background-color: #F9F9F9;
+
+    .circle{
+        width: 10px;
+        height: 10px;
+        background-color: #FCC068;
+        border-radius: 50%;
+        margin: 16px 0px;
+    }
+    .contacts-header-content{
+        display: flex;
+    }
+    .contact{
+        width: 50%;
+        padding-left: 100px;
+        padding-top: 60px;
+        .contacts-name{
+            margin-top: 40px;
+            display: flex;
+            column-gap: 8px;
+            color: #919192;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2px;
+
+            
+        }
+        .contact-list{
+            display: flex;
+            column-gap: 24px;
+            margin-top: 12px;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+
+        }
+        .email-contact{
+            span {
+                color: #919192;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2px;
+
+
+            }
+            div{
+                margin-top: 12px;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+
+            }
+            
+        }
+        .contacts-adress{
+            display: flex;
+            .adress{
+             span {
+                 color: #919192;
+                 font-size: 14px;
+                 font-weight: 500;
+                 line-height: 16px;
+                 letter-spacing: 2px;
+                }
+                .clinic-name{
+                    margin-top: 12px;
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+
+                }
+                .clinic-adress{
+                    margin-top: 12px;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+color: #212121;
+                }
+            }
+         }
+         .work-time{
+            margin-left: 60px;
+            .work-time-header{
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2px;
+margin-bottom: 12px;
+color: #919192;
+            }
+            .time{
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+            }
+         }
+         .social-name{
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2px;
+color: #919192
+         }
+         .social-list{
+            display: flex;
+            column-gap: 14px;
+            margin-top: 12px;
+         }
+    }
+    .contact{
+        h1{
+font-size: 48px;
+font-weight: 500;
+line-height: 58px;
+ 
+        }
+    }
+    .consultations-contact{
+        width: 50%;
+        box-shadow: inset 100px 50px 50px 1000px rgba(0,0,0,0.7);
+        color: #ffffff;
+        background-image: url("./../img/contact-img.jpg");
+        input::placeholder{
+            color: #5E5E5E;
+        }
+        h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    white-space: nowrap;
+            color: #FCC068;
+        }
+        input{
+            padding: 12px 20px;
+        }
+        textarea{
+            width: 340px;
+            height: 138px;
+            padding: 12px 20px;
+
+        }
+
+    }
+ 
+   
+}

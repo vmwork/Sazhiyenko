@@ -1,0 +1,19 @@
+.scroller {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    background-color: transparent;
+    transform: rotate(270deg);
+    .block_button{
+        width: 50px;
+        height: 50px;
+margin: 0;
+    }
+    
+}
+.uk-button-primary:hover{
+    background-color: transparent;
+}
+.hide {
+    display: none;
+}

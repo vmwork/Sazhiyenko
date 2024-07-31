@@ -1,0 +1,28 @@
+.pagination{
+    margin-top: 60px;
+    padding-bottom: 100px;
+    
+li {
+    a{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        padding: 10px 15px;
+        color: #000000;
+    }
+    .active{
+        background-color: #FCC068;
+        color: #ffffff;
+
+    }
+}
+
+}
+.uk-icon>*{
+    width: 6px;
+    height: 12px;
+}
+  
+.uk-dotnav>.uk-active>*{
+    background-color: #FCC068!important;
+}

@@ -1,0 +1,156 @@
+.footer{
+    background-color: #2B2A29 ;
+    padding: 56px 44px 0px 44px;
+    color: #FFFFFF;
+    .contact-list{
+        li:hover {
+            color: #FCC068;
+
+        }
+    }
+    .footer--block{
+        span {
+        color: #6F6F6F;
+    
+        }
+    }
+ 
+    .footer-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: Onest, sans-serif;
+        h3{
+        font-family: Onest, sans-serif;
+
+        }
+
+    }
+    h3, p {
+        margin: 0;
+        font-size: 18px;
+
+    }
+    h3{
+        font-size: 36px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+  .left-block{
+    display: flex;
+    
+    .left-block--menu{
+          display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 144px;
+    padding-left: 0px;
+    width: 300px;  
+    margin-right: 120px;
+    li{
+        margin-right: 110px;
+    margin-bottom: 15px;
+    font-size: 14px;
+
+        color: #FFFFFF;
+a{
+
+    color: #FFFFFF;
+
+}
+a:hover {
+
+    color: #FCC068;
+
+}
+    }
+    }
+
+  }
+  .footer-content{
+    margin-top: 60px;
+  }
+  .footer-descriptions{
+    margin-left: auto;
+    margin-right: 80px;
+
+    span, div{
+        margin-bottom: 8px;
+        display: block;
+    }
+
+  }
+  .rigth-block{
+    min-width: 262px;
+    text-align: end;
+    span, div{
+        // margin-bottom: 8px;
+        display: block;
+        a {
+    color: #FFFFFF;
+
+        }
+        a:hover {
+
+            color: #FCC068;
+        
+        }
+    }
+    .phone{
+        width: 100%;
+        align-content: end;
+        font-family: NunitoSans, sans-serif;
+        padding-top: 0px;
+    }
+    span{
+        padding-top: 20px;
+    }
+    .footer-contacts{
+        display: flex;
+        column-gap: 16px;
+        justify-content: flex-end;
+        a{
+            color: #FFFFFF;
+
+        }
+   
+    }
+    .footer-email{
+        margin-top: 20px;
+    }
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 20px;
+.block_contacts{
+    height: 32px;
+}
+}
+
+    
+  }
+  .deal{
+    margin-right: 40px;
+    color: #6F6F6F;
+
+  }
+ .copyright{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #666464;
+    padding: 27px 0;
+    margin-top: 40px;
+    min-height: 65px;
+    .copyright-left{
+        color: #6F6F6F;
+    }
+    .copyright-right{
+        display: flex;
+        color: #6F6F6F;
+
+    }
+ } 
+}

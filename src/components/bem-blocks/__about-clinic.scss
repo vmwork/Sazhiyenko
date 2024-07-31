@@ -1,0 +1,77 @@
+
+.about-clinic{
+    padding: 0px 120px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 100px;
+    .about-clinic--img{
+      align-self: center;
+      img{
+        height: 440px;
+        width: 588px;
+
+      }
+    }
+    .about-clinic--description{
+        max-width: 50%;
+     margin-top: 43px;   
+     h3{
+        font-size: 42px;
+        font-weight: 300;
+        margin-bottom: 40px;
+     }
+     p{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 24px;
+     }
+    }
+    span{
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    button{
+     padding: 12px 20px;   
+     border: 1px solid #FCC068;
+     margin-top: 14px;
+    }
+}
+.preparation-surgery{
+    width: 1440px;
+    margin: 0 auto;
+    .about-clinic{
+        padding-bottom: 80px;
+        .about-clinic--img{
+            align-self: center;
+            img{
+              height: 100%;
+              width: 100%;
+      
+            }
+        }
+        .about-clinic--description{
+            h3{
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 40px;  
+                
+            }
+            
+        }
+        
+    }
+    button{
+        padding: 16px 32px;   
+        margin-top: 14px;
+        background-color: #FCC068;
+       }
+       .line-3{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px;
+        margin: 0;
+       }
+}

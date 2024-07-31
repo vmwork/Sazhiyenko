@@ -1,0 +1,58 @@
+.preview_services{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+   min-height: 590px;
+   align-items: flex-end;
+   width: 100%; 
+    background-image: url("./../img/air-kiss-Ukraine.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 0px 300px rgba(0,0,0,0.3);
+    color: #FFFFFF; 
+
+    .services-doctor{
+        display: flex;
+        align-items: flex-start;  
+        flex-direction: column;
+        margin-right: 200px;
+        margin-top: 189px;
+        h1{
+            font-size: 48px;
+            font-weight: 500;
+        color: #FFFFFF;
+    
+        }
+        div{
+            font-size: 24px;
+            font-weight: 400;
+        }
+       }
+       button{
+        margin-top: 36px;
+        padding: 16px 32px;
+        background-color: #FCC068;
+       }
+       .services-links{
+        display: flex;
+        margin-top: 145px;
+        li{
+            margin-right: 7px;
+            color: #8A8894;
+            a{
+                color: #D3D2D5;
+            }
+        }
+       }
+       .air-kiss{
+        position: absolute;
+        left: 40px;
+        bottom: 24px;
+        color: #919192;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.4px;
+        
+    }
+}

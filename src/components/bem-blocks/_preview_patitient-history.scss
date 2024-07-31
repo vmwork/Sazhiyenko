@@ -1,0 +1,40 @@
+.preview_patitient-history{
+    background-color: #F1F1F1;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+font-size: 48px;
+font-weight: 500;
+line-height: 58px;
+  
+    }
+    .history-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        column-gap: 4px;
+        li {
+            color: #919192;
+
+            a {
+                color: #5E5E5E;
+            }
+        }
+    }
+    .history-gallery{
+        margin-top: 60px;
+        max-width: 70%;
+        ul {
+            display: flex;
+            column-gap: 8px;
+        }
+        img {
+
+        }
+    }
+    .uk-grid>*{
+        padding: 0px;
+    }
+}

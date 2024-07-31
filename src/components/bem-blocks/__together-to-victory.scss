@@ -1,0 +1,38 @@
+.together-to-victory{
+ background-color: #2B2A29;
+ padding: 0px 110px 110px 110px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: #ffffff;
+ position: relative;
+ .together-to-victory--description{
+    max-width: 50%;
+    margin-top: 130px;
+   h3{
+    font-size: 32px;
+    margin-bottom: 32px;
+ color: #ffffff;
+
+ }
+    p{
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 486px;
+
+    }
+   }
+
+
+ .img-wrapper{
+    max-width: 50%;    
+    margin-top: 100px;
+   
+ }
+ .hand-2{
+   position: absolute;
+   left: 40%;
+   bottom: 40px;
+   
+ }
+}

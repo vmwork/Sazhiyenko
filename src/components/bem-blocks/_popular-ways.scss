@@ -1,0 +1,117 @@
+.popular-ways{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    .photo-block--button{
+        height: 100%;
+        width: 100%;
+    }
+    .popular-ways__description{
+    font-size: 42px;
+    font-weight: 300;
+    }
+
+    .photo-galerry{
+        margin: 64px 0;
+        display: flex;
+        width: 100%;
+        gap: 8px;
+    }
+    .photo-block{
+        min-width: 24%;
+        min-height: 424px;
+        background-color: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .photo-block--text{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 350px;
+    }
+
+    .consultation{
+        background-color: #FCC068;
+        padding: 16px 32px;
+        color: #000000;
+        margin-bottom: 80px;
+    }
+    .face{
+        background-image: url("./../img/face.jpg");
+    }
+    .body{
+        background-image: url("./../img/body.jpg");
+    }
+    .breast{
+        background-image: url("./../img/breast.jpg");
+    }
+    .weight{
+        background-image: url("./../img/weight.jpg");
+    }
+}
+
+.uk-dropdown-nav>li>a{
+    color: #212121;
+}
+.uk-dropdown-nav>li>a:hover {
+    color: #D19E52;
+}
+
+@media (max-width: 1280px){
+    .popular-ways{
+        margin-top: 130px;
+    margin-bottom: 0px;
+
+        .popular-ways__description{
+font-size: 30px;
+font-weight: 300;
+line-height: 36px;
+text-align: center;
+width: 250px;
+
+        }
+        .photo-galerry{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+
+        }
+        .face, .body, .breast, .weight{
+            min-width: 328px;
+            max-width: 328px;
+            height: 503px;
+        }
+        .consultation{
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2px;
+padding: 12px 20px;
+margin-bottom: 30px;
+
+        }
+    .line-3{
+        width: 90%;
+    }
+    }
+}
+@media (max-width: 1280px){
+    .popular-ways {
+        .photo-galerry{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }  
+}

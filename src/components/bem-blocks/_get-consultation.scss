@@ -1,0 +1,44 @@
+.get-consultation{
+    background-image: url("../img/get-consultation.webp");
+    min-height: 471px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF; 
+    position: relative;
+    .get-consultation--wrapper{
+        max-width: 835px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding-top: 140px;
+        padding-bottom: 120px; 
+        h2{
+            font-size: 48px;
+            font-weight: 500;
+            list-style: 57px;
+        color: #FFFFFF; 
+
+        }
+        p{
+            font-size: 24px;
+            font-weight: 500;
+            list-style: 28px;   
+        }
+        button{
+            margin-top: 40px;
+            font-weight: 500;
+            color: #000000;
+            background: #8A8894;
+            padding: 16px 79px;
+            background-color: #FCC068;
+        }
+ }
+ .nude{
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    color: #919192;
+    font-size: 12px;
+ }
+}

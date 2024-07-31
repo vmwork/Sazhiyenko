@@ -1,0 +1,17 @@
+.double-foto{
+    padding: 80px 0;
+    max-width: 861px;
+margin: 0 auto;
+    .double-foto-wrapper{
+        ul{
+            display: flex;
+            justify-content: center;
+            gap: 33px;
+            margin-bottom: 38px;
+
+        }
+    }
+    p{
+        text-align: center;
+    }
+}

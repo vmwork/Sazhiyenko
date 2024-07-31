@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Gulp pack for easy html/php markup development">
+	<meta name="keywords" content="">
+	<link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+	<link rel="shortcut icon" href="img/favicons/favicon.webp" type="image/webp">
+	<link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.18.3/css/uikit.min.css" />
+
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<!-- UIkit JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.18.3/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.18.3/js/uikit-icons.min.js"></script>
+
+	<title>VOLODYMYR SAZHIYENKO</title>
+</head>
+
+<body>
+	<header class="header" id="header">
+    <div class="header_phone">
+        <span>
+            <a href="tel:+380 (63) 835-18-66">
+                <span class="phone">+380 (63) 835-18-66</span>
+                <div class="block_contacts phone-mob --svg__telephone"></div>
+
+            </a>
+        </span>
+    </div>
+    <div class="header_name"><a href="/"> VOLODYMYR SAZHIYENKO <div>Plastic Surgeon</div></a></div>
+    <div class="contact_block flex">
+
+        <ul class="contact_block flex">
+            <li><a href="/">
+                    <div class="block_contacts social --svg__instagram social-header"></div>
+                </a></li>
+            <li><a href="/">
+                    <div class="block_contacts --svg__facebook social-header"></div>
+                </a></li>
+            <li><a href="/">
+                    <div class="block_contacts --svg__tik-tok social-header"></div>
+                </a></li>
+            <li><a href="/">
+                    <div class="block_contacts --svg__youtube social-header"></div>
+                </a></li>
+            <li><a href="/">
+                    <div class="block_contacts --svg__mail social-header"></div>
+                </a></li>
+        </ul>
+        <div class="header_lang">
+            <ul>
+                <li><a href="/">UA</a></li>
+                <li><a href="/">RU</a></li>
+                <li><a href="/">EN</a></li>
+            </ul>
+
+            <!-- <button class="lang">RU</button>
+            <button class="lang">UA</button>
+            <button class="lang">EN</button> -->
+        </div>
+    </div>
+    <div class="mobile-burger">
+        <nav class="uk-navbar-container">
+            <div class="uk-container">
+                <div uk-navbar="mode: click">
+
+                    <div class="uk-navbar-left">
+                        <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+                        <div class="uk-navbar-dropdown drobdown-wrapper">
+                            <ul class="uk-nav-default" uk-nav>
+                                <li> <a class="navigation-link" href="/about.html">ПРО ЛІКАРЯ</a>
+                                </li>
+                                <li class="uk-parent parent-wrapper">
+                                    <a class="parent-head" href="#">ПОСЛУГИ<span uk-nav-parent-icon></span></a>
+                                    <ul class="uk-nav-sub">
+                                        <li class="uk-active">
+                                            <a class="sub-head" href="#">Хірургічні процедури</a>
+
+                                        </li>
+                                        <ul class="uk-nav-sub" uk-nav>
+                                            <li class="uk-parent">
+                                                <a class="sub-menu-header" href="#">ОБЛИЧЧА<span
+                                                        uk-nav-parent-icon></span></a>
+                                                <ul class="uk-nav-sub">
+                                                    <li><a class="navigation-link" href="/services.html">Ендоскопічна
+                                                            підтяжка</a></li>
+                                                    <li><a class="navigation-link" href="#">Розширена підтяжка
+                                                            обличчя Deep Plan</a>
+                                                    </li>
+                                                    <li><a class="navigation-link" href="#">Підтяжка обличчя</a>
+                                                    </li>
+                                                    <li><a class="navigation-link" href="#">Глибока підтяжка шиї</a>
+                                                    </li>
+                                                    <li><a class="navigation-link" href="#">Пластика шиї</a></li>
+                                                    <li><a class="navigation-link" href="#">Пластика повік</a></li>
+                                                    <li><a class="navigation-link" href="#">Ліпофілінг особи</a>
+                                                    </li>
+                                                    <li><a class="navigation-link" href="#">Пластика губ
+                                                            (хейлопластика)</a></li>
+                                                    <li><a class="navigation-link" href="#">Видалення грудок
+                                                            Біша</a></li>
+                                                    <li><a class="navigation-link" href="#">Підтяжка брів</a></li>
+                                                    <li><a class="navigation-link" href="#">Ліпофілінг особи</a>
+                                                    </li>
+                                                    <li><a class="navigation-link" href="#">Лицьові імпланти</a>
+                                                    </li>
+                                                    <li><a class="navigation-link" href="#">Пластика вушних
+                                                            раковин</a></li>
+                                                    <li><a class="navigation-link" href="#">Ринопластика</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="uk-parent">
+                                                <a class="sub-menu-header" href="#">ТІЛО<span
+                                                        uk-nav-parent-icon></span></a>
+                                                <ul class="uk-nav-sub">
+                                                    <li><a class="navigation-link" href="#">Пластика плечей</a></li>
+                                                    <li><a class="navigation-link" href="#">Абдомінопластика
+                                                            (пластика живота)</a></li>
+                                                    <li><a class="navigation-link" href="#">Пластика спини та
+                                                            попереку</a></li>
+                                                    <li><a class="navigation-link" href="#">Пластика сідниць</a>
+                                                    </li>
+                                                    <li><a class="navigation-link" href="#">Пластика стегон та
+                                                            гомілок</a></li>
+                                                    <li><a class="navigation-link" href="#">Відновлення фігури після
+                                                            пологів</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                </li>
+
+                            </ul>
+                            </li>
+                            <li><a class="navigation-link" href="/gallery.html">ГАЛЕРЕЯ</a></li>
+                            <li>
+                                <a class="navigation-link" href="/price.html">ПРАЙС</a>
+                            </li>
+                            <li>
+                                <a class="navigation-link" href="/about-clinic.html">ПРО КЛІНІКУ</a>
+                            </li>
+
+                            <li class="uk-parent">
+                                <a href="#">РЕСУРСИ<span uk-nav-parent-icon></span></a>
+                                <ul class="uk-nav-sub">
+                                    <li class="bordered navigation-link"><a href="/reviews.html">Відгуки</a></li>
+                                    <li class="bordered navigation-link"><a href="/blog.html">Блог</a></li>
+                                    <li class="bordered navigation-link"><a href="/blog.html">Фінансова політика</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="navigation-link" href="/contacts.html">КОНТАКТИ</a></li>
+
+                            </ul>
+                            <div class="mob-menu-footer">
+                                <ul class="mob-social">
+                                    <li><a href="/">
+                                            <div class="block_contacts social --svg__instagram social-header"></div>
+                                        </a></li>
+                                    <li><a href="/">
+                                            <div class="block_contacts --svg__facebook social-header"></div>
+                                        </a></li>
+                                    <li><a href="/">
+                                            <div class="block_contacts --svg__tik-tok social-header"></div>
+                                        </a></li>
+                                    <li><a href="/">
+                                            <div class="block_contacts --svg__youtube social-header"></div>
+                                        </a></li>
+                                    <li><a href="/">
+                                            <div class="block_contacts --svg__mail social-header"></div>
+                                        </a></li>
+                                </ul>
+                                <ul class="mob-lang">
+                                    <li><a href="/">UA</a></li>
+                                    <li><a href="/">RU</a></li>
+                                    <li><a href="/">EN</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+	<div class="nav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar-container" uk-navbar="mode: click">
+        <div class="sticky-logo">
+            <a href="/">
+                <div class="header-name nav">
+
+                    <div>VOLODYMYR SAZHIYENKO</div>
+                    <div class="profession">Plastic Surgeon</div>
+                </div>
+            </a>
+            <div class="header_lang nav">
+                <button class="lang">RU</button>
+                <button class="lang">UA</button>
+                <button class="lang">EN</button>
+            </div>
+        </div>
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a class="navigation-link" href="/about.html">ПРО ЛІКАРЯ</a>
+                </li>
+                <li>
+
+                    <a class="navigation-link" href="#">ПОСЛУГИ <span uk-navbar-parent-icon></span> </a>
+                    <div class="uk-navbar-dropdown dropdown-block drop-down-wrapper"
+                        uk-drop="boundary: !.uk-navbar; stretch: x; flip: false">
+                        <div class="main-title">Хірургічні процедури</div>
+
+                        <div class="uk-drop-grid uk-child-width-1-4 main-menu-dropdown" uk-grid>
+
+                            <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header">ОБЛИЧЧА</li>
+                                    <li><a class="navigation-link" href="/services.html">Ендоскопічна підтяжка</a></li>
+                                    <li><a class="navigation-link" href="#">Розширена підтяжка обличчя Deep Plan</a>
+                                    </li>
+                                    <li><a class="navigation-link" href="#">Підтяжка обличчя</a></li>
+                                    <li><a class="navigation-link" href="#">Глибока підтяжка шиї</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика шиї</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика повік</a></li>
+                                    <li><a class="navigation-link" href="#">Ліпофілінг особи</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика губ (хейлопластика)</a></li>
+                                    <li><a class="navigation-link" href="#">Видалення грудок Біша</a></li>
+                                    <li><a class="navigation-link" href="#">Підтяжка брів</a></li>
+                                    <li><a class="navigation-link" href="#">Ліпофілінг особи</a></li>
+                                    <li><a class="navigation-link" href="#">Лицьові імпланти</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика вушних раковин</a></li>
+                                    <li><a class="navigation-link" href="#">Ринопластика</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="menu-container">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header">ТІЛО</li>
+                                    <li><a class="navigation-link" href="#">Пластика плечей</a></li>
+                                    <li><a class="navigation-link" href="#">Абдомінопластика (пластика живота)</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика спини та попереку</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика сідниць</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика стегон та гомілок</a></li>
+                                    <li><a class="navigation-link" href="#">Відновлення фігури після пологів</a></li>
+                                </ul>
+
+                                <ul class="down-menu">
+                                    <li><a class="another-service" href="#">ВІДНОВЛЕННЯ ПІСЛЯ СХУДНЕННЯ</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="menu-container">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header">ГРУДИ</li>
+                                    <li><a class="navigation-link" href="#">Підтяжка грудей без імплантів</a></li>
+                                    <li><a class="navigation-link" href="#">Ліпофілінг грудей</a></li>
+                                    <li><a class="navigation-link" href="#">Збільшення грудей імплантами</a></li>
+                                    <li><a class="navigation-link" href="#">Видалення імплантів грудей</a></li>
+                                    <li><a class="navigation-link" href="#">Зменшення грудей</a></li>
+                                    <li><a class="navigation-link" href="#">Видалення гелю з грудей</a></li>
+                                    <li><a class="navigation-link" href="#">Ревізійна хірургія грудей </a></li>
+                                </ul>
+                                <ul class="down-menu">
+                                    <li><a class="another-service" href="#">РЕКОНСТРУКТИВНА ХІРУРГІЯ</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="menu-container">
+
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header">ІНТИМНА ПЛАСТИКА</li>
+                                    <li><a class="navigation-link" href="#">Пластика лобка</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика великих статевих губ</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика малих статевих губ</a></li>
+                                    <li><a class="navigation-link" href="#">Пластика піхви</a></li>
+                                </ul>
+                                <ul class="down-menu">
+                                    <li><a class="another-service" href="#">ЧОЛОВІКАМ</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu-container-footer">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <div class="main-title ">Не хірургічні процедури</div>
+
+                                <li class="main-menu-dropdown ">
+                                    <a class="navigation-link" href="#">PRP терапія</a>
+                                </li>
+                                <li><a class="navigation-link" href="#">Bio Filling</a></li>
+                                <li><a class="navigation-link" href="#">Nano Fat grafting</a></li>
+                                <li><a class="navigation-link" href="#">Microneedling</a></li>
+                                <li><a class="navigation-link" href="#">Ботулінотеорапія</a></li>
+                            </ul>
+                            <button class="nav-consultation" uk-button uk-button-defaul type="button"
+                                uk-toggle="target: #modal-consultations">ЗАПИСАТИСЯ НА КОНСУЛЬТАЦІЮ</button>
+
+                        </div>
+
+                    </div>
+
+                </li>
+                <li><a class="navigation-link" href="/gallery.html">ГАЛЕРЕЯ</a></li>
+                <li><a class="navigation-link" href="/price.html">ПРАЙС</a></li>
+                <li><a class="navigation-link" href="/about-clinic.html">ПРО КЛІНІКУ</a></li>
+                <li>
+                    <a href="#">РЕСУРСИ <span uk-navbar-parent-icon></span> </a>
+
+                    <div class="uk-navbar-dropdown first-level">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="bordered navigation-link"><a href="/reviews.html">Відгуки</a></li>
+                            <li class="bordered navigation-link"><a href="/blog.html">Блог</a></li>
+                            <li class="bordered navigation-link"><a href="/blog.html">Фінансова політика</a></li>
+                        </ul>
+                    </div>
+                </li>
+                </li>
+                <li><a class="navigation-link" href="/contacts.html">КОНТАКТИ</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+</div>
+	<main class="main">
+		<div class="preview_about--clinic">
+    <div class="img-container">
+        <img src="./img/preview-about-clinik.jpg" alt="doctor">
+    </div>
+    <div class="about-doctor">
+        <img class="img-odrex" src="./img/odrex.png" alt="odrex">
+
+        <h1>ПРО МЕДИЧНИЙ <br> ДІМ ODREX</h1>
+        <ul class="about-links">
+            <li><a href="/">ГОЛОВНА</a> </li>
+            <li>|</li>
+            <li>ПРО КЛІНІКУ </li>
+        </ul>
+    </div>
+</div>
+		<div class="_about-clinic-description">
+    <h1>МЕДИЧНИЙ ДІМ ODREX -<br> ПРОВІДНА ПРИВАТНА КЛІНІКА <br> ПІВДНЯ УКРАЇНИ</h1>
+    <p>Сьогодні у Медичному домі працює понад 1000 співробітників. На 18 000 м² розташувалися 180 ліжок і надаються всі види амбулаторно-поліклінічної, стаціонарної та хірургічної допомоги. А це понад 4500 видів медичних послуг: швидка допомога, повний спектр медичних досліджень, консультації лікарів понад 50 спеціальностей, малоінвазивна хірургія та травматологія 24/7, реабілітація та фізіотерапія, Клініка Серця, створена у партнерстві з Medtronic, Центр лікування ожиріння, педіатричне відділення та відділення гострих респіраторних захворювань.</p>
+</div>
+		<div class="_about-clinic-address">
+    <h2>АДРЕССА</h2>
+    <p>м. Одеса, вул. Розкидайлівська 69/71</p>
+    <button uk-button uk-button-defaul type="button" uk-toggle="target: #modal-consultations">ЗАПИСАТИСЯ НА КОНСУЛЬТАЦІЮ</button>
+</div>
+		<div class="_about-clinic-slider">
+    <div uk-slider="center: true">
+        <div class="uk-position-relative">
+            <div class="uk-slider-container uk-light">
+
+                <ul class="uk-slider-items uk-child-width-1-1@m">
+                    <!-- <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-3@m uk-grid"> -->
+                    <li>
+                        <div class="uk-card-media-top">
+                            <img src="./img/operation-slider.jpg" alt="Слайдер">
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="uk-card-media-top">
+                            <img src="./img/operation-slider.jpg" alt="Слайдер">
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="uk-card-media-top">
+                            <img src="./img/operation-slider.jpg" alt="Слайдер">
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="uk-card-media-top">
+                            <img src="./img/operation-slider.jpg" alt="Слайдер">
+                        </div>
+                        <div class="uk-card-body">
+
+
+                    </li>
+                    <li>
+                        <div class="uk-card-media-top">
+                            <img src="./img/operation-slider.jpg" alt="Слайдер">
+                        </div>
+
+
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="uk-hidden@s uk-light">
+                <a class="uk-position-center-left uk-position-small" href uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small" href uk-slidenav-next uk-slider-item="next"></a>
+            </div>
+            <div class="uk-visible@s">
+                <a class="uk-position-center-left-out uk-position-small" href uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right-out uk-position-small" href uk-slidenav-next
+                    uk-slider-item="next"></a>
+            </div>
+        </div>
+
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    </div>
+</div>
+		<div class="advantages-about-clinic">
+    <h2>ПЕРЕВАГИ КЛІНІКИ</h2>
+    <div class="advantages-about-clinic--container">
+        <div class="advantages-block">
+            <div class="advantages-block-header">
+                <div>
+                    <h3>БЕЗПЕКА</h3> <span>01/</span>
+                </div>
+                <img src="./img/line-1.webp" alt="line">
+
+            </div>
+            <div class="advantages-block-description">
+                <p>Декілька речень про наявність бомбосховища в клініці. Я оперую тільки в клініках, здатних забезпечити
+                    максимальну стерильність. Тому я проводжу пластичні операції в ізольованій приватній клініці, яка
+                    спеціалізується виключно на естетичній медицині.</p>
+            </div>
+        </div>
+        <div class="advantages-block">
+            <div class="advantages-block-header">
+                <div>
+                    <h3>СТЕРИЛЬНІСТЬ</h3> <span>02/</span>
+                </div>
+                <img src="./img/line-1.webp" alt="line">
+
+            </div>
+            <div class="advantages-block-description">
+                <p>Декілька речень про наявність бомбосховища в клініці. Я оперую тільки в клініках, здатних забезпечити
+                    максимальну стерильність. Тому я проводжу пластичні операції в ізольованій приватній клініці, яка
+                    спеціалізується виключно на естетичній медицині.</p>
+            </div>
+        </div>
+        <div class="advantages-block">
+            <div class="advantages-block-header">
+                <div>
+                    <h3>ТЕХНОЛОГІЇ</h3> <span>03/</span>
+                </div>
+                <img src="./img/line-1.webp" alt="line">
+
+            </div>
+            <div class="advantages-block-description">
+                <p>Декілька речень про наявність бомбосховища в клініці. Я оперую тільки в клініках, здатних забезпечити
+                    максимальну стерильність. Тому я проводжу пластичні операції в ізольованій приватній клініці, яка
+                    спеціалізується виключно на естетичній медицині.</p>
+            </div>
+        </div>
+        <div class="advantages-block">
+            <div class="advantages-block-header">
+                <div>
+                    <h3>КОМФОРТ</h3> <span>04/</span>
+                </div>
+                <img src="./img/line-1.webp" alt="line">
+
+            </div>
+            <div class="advantages-block-description">
+                <p>Декілька речень про наявність бомбосховища в клініці. Я оперую тільки в клініках, здатних забезпечити
+                    максимальну стерильність. Тому я проводжу пластичні операції в ізольованій приватній клініці, яка
+                    спеціалізується виключно на естетичній медицині.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+		<div class="consultations advanteges">
+    <h2>ЗАПИСАТИСЯ НА КОНСУЛЬТАЦІЮ</h2>
+    <p>до лікаря Володимира Сажієнко</p>
+    <form class="consultations-form" action="submit">
+        <div>
+            <div class="consultations_inputs">
+                <input type="text" placeholder="Ваше ім'я">
+                <input type="text" placeholder="Телефон">
+            </div>
+            <p>Оберіть зручний мессенджер для зв'язку</p>
+            <div class="radioo-inputs">
+                <div>
+                    <input type="radio" id="phone" name="contact" value="phone">
+                    <label for="phone">ТЕЛЕФОН</label>
+                </div>
+                <div>
+                    <input type="radio" id="telegramm" name="contact" value="telegramm">
+                    <label for="telegramm">TELEGRAM</label>
+                </div>
+
+            </div>
+
+            <div class="radioo-inputs">
+                <div>
+                    <input type="radio" id="viber" name="contact" value="viber">
+                    <label for="viber">VIBER</label>
+                </div>
+                <div>
+                    <input type="radio" id="watsup" name="contact" value="watsup">
+                    <label for="watsup">WHATSAPP</label>
+                </div>
+            </div>
+            <input class="send-form" type="submit" value="НАДІСЛАТИ" />
+        </div>
+
+    </form>
+    <div class="form-footer">
+        <p>Натискаючи кнопку "Надіслати", я даю згоду на обробку персональних даних.</p>
+    </div>
+</div>
+		<div class="popap-consultations">
+    <div id="modal-consultations" class="uk-flex-top " uk-modal>
+        <div class="modal-consultations uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            <div class="consultations consultation-popup">
+                <h2>ЗАПИСАТИСЯ НА КОНСУЛЬТАЦІЮ</h2>
+                <p>до лікаря Володимира Сажієнко</p>
+                <form class="consultations-form" action="submit">
+                    <div>
+                        <div class="consultations_inputs">
+                            <input type="text" placeholder="Ваше ім'я">
+                            <input type="text" placeholder="Телефон">
+                        </div>
+                        <p>Оберіть зручний мессенджер для зв'язку</p>
+                        <div class="radioo-inputs">
+                            <div>
+                                <input type="radio" id="popup-phone" name="popup-contact" value="phone">
+                                <label for="popup-phone">ТЕЛЕФОН</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="popup-telegramm" name="popup-contact" value="telegramm">
+                                <label for="popup-telegramm">TELEGRAM</label>
+                            </div>
+
+                        </div>
+
+                        <div class="radioo-inputs">
+                            <div>
+                                <input type="radio" id="popup-viber" name="popup-contact" value="viber">
+                                <label for="popup-viber">VIBER</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="popup-watsup" name="popup-contact" value="watsup">
+                                <label for="popup-watsup">WHATSAPP</label>
+                            </div>
+                        </div>
+                        <input class="send-form" type="submit" value="НАДІСЛАТИ" />
+                    </div>
+
+                </form>
+                <div class="form-footer">
+                    <p>Натискаючи кнопку "Надіслати", я даю згоду на обробку персональних даних.</p>
+                </div>
+            </div>
+            <button class="uk-modal-close-outside circle-button" type="button" uk-close></button>
+
+        </div>
+    </div>
+</div>
+		<a id="scroller" class=" hide scroller uk-button uk-button-primary" uk-scroll="offset: 50" href="#header" uk-scroll>
+    <div class="block_button --svg__button2"></div>
+</a>
+
+	</main>
+	<footer class="footer">
+    <div class="footer-header">
+        <h3>VOLODYMYR SAZHIYENKO</h3>
+        <p>Plastic Surgeon</p>
+    </div>
+    <div class="footer-content">
+        <div class="left-block">
+            <ul class="left-block--menu">
+                <li> <a href="/about.html">ПРО ЛІКАРЯ</a> </li>
+                <li> <a href="/about-clinic.html">ПРО КЛІНІКУ</a> </li>
+                <li><a href="/gallery.html">ГАЛЕРЕЯ</a> </li>
+                <li><a href="/price.html">ПРАЙС</a></li>
+                <li><a href="/reviews.html">ВІДГУКИ</a></li>
+                <li><a href="/blog.html">БЛОГ</a></li>
+                <li><a href="/contacts.html">КОНТАКТИ</a></li>
+            </ul>
+            <div class="footer-descriptions">
+                <span>Клініка “Медичний дім ODREX”</span>
+                <div>м. Одеса </div>
+                <div>вул. Розкидайлівська 69/71</div>
+            </div>
+            <div class="rigth-block">
+                <div> <span><a href="tel:+380 (63) 835-18-66">+380 (63) 835-18-66</a> </span>
+                </div>
+                <div class="footer-contacts">
+                    <a href=""><span>TELEGRAM</span></a>
+                    <a href=""><span>VIBER</span></a>
+                    <a href=""><span>WATSAPP</span></a>
+
+                </div>
+                <div class="footer-email">
+                    <a href="mailto:sazhiyenko@gmail.com">sazhiyenko@gmail.com</a>
+                </div>
+                <ul class="footer-icons">
+                    <li> <a href="">
+                            <div class="block_contacts --svg__instagram-w"></div>
+                        </a> </li>
+                    <li><a href="">
+                            <div class="block_contacts --svg__facebook-w"></div>
+                        </a></li>
+                    <li><a href="">
+                            <div class="block_contacts --svg__ticktok-w"></div>
+                        </a> </li>
+                    <li><a href="">
+                            <div class="block_contacts --svg__youtube-w"></div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="footer--block">
+        <a href="/"><span class="deal">Угода користувача</span></a>
+        <a href="/"><span>Політика конфіденційності</span></a>
+
+        <div class="copyright">
+            <div class="copyright-left">
+                Copyright © 2024 Volodymyr Sazhiyenko. All rights reserved.
+            </div>
+            <div class="copyright-right">
+                <div>Розробка та просування сайту </div>
+                <div class="block_logo --svg__logo"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+	<script src="js/libs.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+
+</html>

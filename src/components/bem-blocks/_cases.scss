@@ -1,0 +1,64 @@
+.cases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .cases__description{
+    font-size: 42px;
+    font-weight: 300;
+    }
+
+    .cases_photo-galerry{
+        margin: 64px 0px 0px 40px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+    .photo-block{
+        min-height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 32px;
+        div{
+            margin-top: 16px;
+            max-width: 384px;
+        }
+    }
+
+    .consultation{
+        padding: 12px 20px;
+        color: #000000;
+        border: 1px solid #FCC068;
+        margin-bottom: 120px;
+    }
+}
+.cases-img {
+    min-width: 1000px;
+}
+
+@media (max-width: 1280px){
+    .cases{
+        
+        .cases__description{
+            font-size: 30px;
+            text-align: center;
+        }
+        .cases_photo-galerry{
+            flex-direction: column;
+        margin: 40px 16px 0px 16px;
+
+        }
+        .photo-block{
+                padding-bottom: 0;
+        }
+        .consultation{
+            margin-top: 40px;
+        }
+        
+    }
+    .cases-img{
+        min-width: 70vw;
+    }
+}

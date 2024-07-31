@@ -1,0 +1,26 @@
+._about-clinic-slider {
+    padding: 100px 120px;
+    max-width: 792px;
+    margin: 0 auto;
+
+    .uk-icon>*{
+        width: 32px;
+        height: 32px;
+    }
+    .uk-dotnav>.uk-active>*{
+        background-color: #FCC068;
+    }
+    
+.uk-card-body{
+padding: 0px!important;
+}
+.uk-card-title{
+    color: black;
+    font-size: 18px!important;
+}
+.uk-icon{
+    color: #000000;
+
+}
+}
+

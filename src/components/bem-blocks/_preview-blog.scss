@@ -1,0 +1,29 @@
+.preview-blog{
+    background-color: #F1F1F1;
+padding-left: 222px;
+width: 100%; 
+background-image: url("./../img/blog.webp");
+background-repeat: no-repeat;
+background-size: cover;
+    .preview-gallery_header{
+        .preview-gallery_name{
+            font-size: 48px;
+            font-weight: 500;
+            padding-top: 80px;
+        }
+    }
+    .gallery-footer{
+        padding-bottom: 80px;
+        ul{
+            display: flex;
+            gap:11px;
+            font-size: 16px;
+            margin-top: 24px;
+        }
+        li {
+            span{
+                color: #919192;
+            }
+        }
+    }
+}

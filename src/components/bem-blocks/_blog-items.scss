@@ -1,0 +1,35 @@
+.blog-items {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 222px;
+    .blog-date{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 2px;
+color: #5E5E5E;
+    }
+    h2{
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+   margin-top: 12px;
+    }
+    p{
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+margin-top: 16px;
+    }
+    button {
+        padding: 12px 20px;
+        border: 1px solid #FCC068;
+        margin-top: 24px;
+    }
+    .blog-item{
+        border-bottom: 1px solid #FCC068;
+        padding-bottom: 40px;
+        padding-top: 32px;
+
+    }
+}

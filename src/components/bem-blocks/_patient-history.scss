@@ -1,0 +1,38 @@
+.patient-history{
+    padding: 120px;
+ .patient-history--header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57px;
+ } 
+ h3{
+    font-size: 43px;
+    font-weight: 200;
+ }  
+ .reviews{
+   padding: 12px 20px;
+   border: 1px solid #FCC068; 
+ }
+ .video-block{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+     li{
+      margin-bottom: 60px;
+     }
+ }
+
+}
+.video-head{
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 28px;
+   margin: 10px 0;
+ }
+ .video-description{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   max-width: 368px;
+ }

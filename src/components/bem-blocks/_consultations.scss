@@ -1,0 +1,144 @@
+.consultations{
+    padding: 100px 120px;
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+
+    h2{ 
+        text-align: center;
+        font-size: 48px;
+        font-weight: 500;
+
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;  
+    }
+    .consultations-form{
+        width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 32px;
+p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400; 
+    display: block; 
+    margin: 16px 0;
+    }
+    }
+    .consultations_inputs{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+        input{
+            width: 340px;
+            padding: 16px 20px;
+
+        }
+        input::placeholder{
+            color: #212121;
+        }
+     
+    }
+    .radioo-inputs{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        div{
+            width: 50%;
+        }
+        label, input{
+            cursor: pointer;
+            
+        }
+    }
+  .send-form{
+    color: #000000;
+    padding: 16px 32px;
+    background-color: #FCC068;
+    width: 100%;
+    border: none;
+  }
+  .form-footer{
+    display: flex;
+    justify-content: center;
+   
+p{
+    font-size: 12px;
+    color: #757575;
+    width: 340px;
+    text-align: left;
+    margin-top: 16px;
+}
+}
+}
+// .standart{
+//     background-image: url("./../img/empty-modern-room-with-furniture.jpg");
+// }
+
+.gallery{
+    background-image: url("./../img/consultations-gallery.jpg");
+    color: #ffffff;
+    h2{
+    color: #ffffff;
+
+    }
+    .form-footer{
+    p{
+        color: #D3D2D5;
+    }    
+    }
+}
+
+.advanteges{
+    background-image: url("./../img/consultation-advanteges.jpg");
+    color: #ffffff;
+    h2{
+    color: #ffffff;
+
+    }
+    .form-footer{
+    p{
+        color: #D3D2D5;
+    }    
+    }
+}
+.letter{
+    background-image: url("./../img/thank-letter.jpg");
+    
+        color: #ffffff;
+        h2{
+        color: #ffffff;
+
+        }
+        .form-footer{
+        p{
+            color: #D3D2D5;
+        }    
+        }
+        
+      
+}
+.blog{
+    background-image: url("./../img/congsultations-blog.jpg");
+}
+
+.consultation-popup {
+    background-color: #F1F1F1;
+    padding: 40px 0px;
+    h2 {
+        font-size: 32px;
+    }
+    p{
+        font-size: 16px;
+
+    }
+
+}
+
+

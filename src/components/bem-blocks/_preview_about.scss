@@ -1,0 +1,70 @@
+.preview_about{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    width: 1440px;
+    margin: 0 auto;
+    .img-container{
+        width: 50%;
+        // img{
+        //     width: 100%;
+        //     height: 100%;
+        //     object-fit: cover;
+        // }
+    }
+ .about-doctor{
+    width: 50%;
+    box-shadow: inset 100px 50px 50px 1000px rgba(0,0,0,0.7);
+    background-size: cover;
+
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./../img/about-img.webp");
+ }
+    h1 {
+        color: #ffffff;
+        margin-top: 165px;
+        font-size: 48px;
+        font-family: Raleway, sans-serif;
+    }
+    p{
+        margin-top: 12px;
+        font-size: 18px;
+
+    }
+    button{
+        color: #000000;
+        padding: 16px 32px;
+        margin-top: 40px;
+        background-color: #FCC068;
+    }
+.about-links{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 48px;
+    li{
+        margin-right: 7px;
+        color: #8A8894;
+        a{
+            color: #FFFFFF;
+        }
+    }
+}
+.consultation_services{
+    max-width: 284px;
+}
+}
+@media (max-width: 1280px) {
+    .preview_about{
+        .about-doctor {
+    padding-left: 40px;
+
+            h1{
+                margin-top: 40px;
+
+            }
+
+        }
+    }
+}

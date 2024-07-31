@@ -1,0 +1,29 @@
+.preview-article-blog{
+    background-color: #F1F1F1;
+    border-bottom: 1px solid #FCC068;
+    padding: 80px 222px;
+    .preview-blog-wrapper{
+        max-width: 800px;
+    }
+    h1{
+font-size: 48px;
+font-weight: 500;
+line-height: 58px;
+    }
+    .article-blog-footer{
+        padding-bottom: 80px;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap:11px;
+            font-size: 16px;
+            margin-top: 24px;
+        }
+        li {
+            span{
+                color: #919192;
+                white-space: pre-wrap;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.thank-letter{
+    background-color: #F9F9F9;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+   .thank-letter-wrapper{
+    max-width: 1440px;
+   }
+   .letters{
+    margin-top: 60px;
+   }
+   .uk-icon>*{
+    width: 32px;
+    height: 32px;
+}
+.uk-dotnav>.uk-active>*{
+    background-color: #FCC068;
+}
+}
